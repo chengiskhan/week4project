@@ -47,8 +47,7 @@ fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to
 indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for 
-each pattern:  
--XYZ is used to denote 3-axial signals in the X, Y and Z directions.
+each pattern: -XYZ is used to denote 3-axial signals in the X, Y and Z directions.
 ============================================================================
 
 "testtraindata" data set
@@ -70,8 +69,7 @@ standard deviation data was extracted.
 | Z = Z axis  
 
 
-Our data set captured the mean and standard deviation values for each of the 
-33 calculations listed below, resulting in 66 total variables.
+Our data set captured the mean and standard deviation values for each of the 33 calculations listed below, resulting in 66 total variables.
 ----------
 | tBodyAcc-X  
 | tBodyAcc-Y  
