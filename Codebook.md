@@ -48,10 +48,13 @@ indicate frequency domain signals).
 
 These signals were used to estimate variables of the feature vector for 
 each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+-XYZ is used to denote 3-axial signals in the X, Y and Z directions.
 ============================================================================
 
 "testtraindata" data set
+
+The test and training data sets were merged into one and only the mean and 
+standard deviation data was extracted.
 
 Key to understanding the variables:
 t = time domain signals
@@ -70,42 +73,43 @@ Z = Z axis
 Our data set captured the mean and standard deviation values for each of the 
 33 calculations listed below, resulting in 66 total variables.
 ----------
-tBodyAcc-X
-tBodyAcc-Y
-tBodyAcc-Z
-tGravityAcc-X
-tGravityAcc-Y
-tGravityAcc-Z
-tBodyAccJerk-X
-tBodyAccJerk-Y
-tBodyAccJerk-Z
-tBodyGyro-X
-tBodyGyro-Y
-tBodyGyro-Z
-tBodyGyroJerk-X
-tBodyGyroJerk-Y
-tBodyGyroJerk-Z
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-X
-fBodyAcc-Y
-fBodyAcc-Z
-fBodyAccJerk-X
-fBodyAccJerk-Y
-fBodyAccJerk-Z
-fBodyGyro-X
-fBodyGyro-Y
-fBodyGyro-Z
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+| tBodyAcc-X
+| tBodyAcc-Y
+| tBodyAcc-Z
+| tGravityAcc-X
+| tGravityAcc-Y
+| tGravityAcc-Z
+| tBodyAccJerk-X
+| tBodyAccJerk-Y
+| tBodyAccJerk-Z
+| tBodyGyro-X
+| tBodyGyro-Y
+| tBodyGyro-Z
+| tBodyGyroJerk-X
+| tBodyGyroJerk-Y
+| tBodyGyroJerk-Z
+| tBodyAccMag
+| tGravityAccMag
+| tBodyAccJerkMag
+| tBodyGyroMag
+| tBodyGyroJerkMag
+| fBodyAcc-X
+| fBodyAcc-Y
+| fBodyAcc-Z
+| fBodyAccJerk-X
+| fBodyAccJerk-Y
+| fBodyAccJerk-Z
+| fBodyGyro-X
+| fBodyGyro-Y
+| fBodyGyro-Z
+| fBodyAccMag
+| fBodyAccJerkMag
+| fBodyGyroMag
+| fBodyGyroJerkMag
 
 "cleanset" data set
 
 The mean of each variable from the "testtraindata" data set was calculated by 
-subject and by activity. The variables are the same as in the "testtraindata" 
+subject and by activity and combined into one data set. The variables are the 
+same as in the "testtraindata" 
 set but each represents the mean value calculated.
