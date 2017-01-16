@@ -17,15 +17,14 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, 
-fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. Note the 'f' to indicate frequency domain signals. 
 
 These signals were used to estimate variables of the feature vector for each pattern: -XYZ is used to denote 3-axial signals in the X, Y and Z directions.
 ============================================================================
 
 "testtraindata" data set
 
-The test and training data sets were merged into one and only the mean and 
-standard deviation data was extracted.
+The test and training data sets were merged into one and only the mean and standard deviation data was extracted.
 
 | Key to understanding the variables:  
 | t = time domain signals  
@@ -79,7 +78,4 @@ Our data set captured the mean and standard deviation values for each of the 33 
 
 "cleanset" data set
 
-The mean of each variable from the "testtraindata" data set was calculated by 
-subject and by activity and combined into one data set. The variables are the 
-same as in the "testtraindata" 
-set but each represents the mean value calculated.
+The mean of each variable from the "testtraindata" data set was calculated by subject and by activity and combined into one data set. The variables are the same as in the "testtraindata" set but each represents the mean value calculated.
