@@ -73,39 +73,39 @@ Z = Z axis
 Our data set captured the mean and standard deviation values for each of the 
 33 calculations listed below, resulting in 66 total variables.
 ----------
-| tBodyAcc-X
-| tBodyAcc-Y
-| tBodyAcc-Z
-| tGravityAcc-X
-| tGravityAcc-Y
-| tGravityAcc-Z
-| tBodyAccJerk-X
-| tBodyAccJerk-Y
-| tBodyAccJerk-Z
-| tBodyGyro-X
-| tBodyGyro-Y
-| tBodyGyro-Z
-| tBodyGyroJerk-X
-| tBodyGyroJerk-Y
-| tBodyGyroJerk-Z
-| tBodyAccMag
-| tGravityAccMag
-| tBodyAccJerkMag
-| tBodyGyroMag
-| tBodyGyroJerkMag
-| fBodyAcc-X
-| fBodyAcc-Y
-| fBodyAcc-Z
-| fBodyAccJerk-X
-| fBodyAccJerk-Y
-| fBodyAccJerk-Z
-| fBodyGyro-X
-| fBodyGyro-Y
-| fBodyGyro-Z
-| fBodyAccMag
-| fBodyAccJerkMag
-| fBodyGyroMag
-| fBodyGyroJerkMag
+| tBodyAcc-X  
+| tBodyAcc-Y  
+| tBodyAcc-Z  
+| tGravityAcc-X  
+| tGravityAcc-Y  
+| tGravityAcc-Z  
+| tBodyAccJerk-X  
+| tBodyAccJerk-Y  
+| tBodyAccJerk-Z  
+| tBodyGyro-X  
+| tBodyGyro-Y  
+| tBodyGyro-Z  
+| tBodyGyroJerk-X  
+| tBodyGyroJerk-Y  
+| tBodyGyroJerk-Z  
+| tBodyAccMag  
+| tGravityAccMag  
+| tBodyAccJerkMag  
+| tBodyGyroMag  
+| tBodyGyroJerkMag  
+| fBodyAcc-X  
+| fBodyAcc-Y  
+| fBodyAcc-Z  
+| fBodyAccJerk-X  
+| fBodyAccJerk-Y  
+| fBodyAccJerk-Z  
+| fBodyGyro-X  
+| fBodyGyro-Y  
+| fBodyGyro-Z  
+| fBodyAccMag  
+| fBodyAccJerkMag  
+| fBodyGyroMag  
+| fBodyGyroJerkMag  
 
 "cleanset" data set
 
