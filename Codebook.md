@@ -56,18 +56,18 @@ each pattern:
 The test and training data sets were merged into one and only the mean and 
 standard deviation data was extracted.
 
-Key to understanding the variables:
-t = time domain signals
-f = Fast Fourier Transform applied to signals
-Body = body acceleration signals
-Gravity = gravity acceleration signals
-Acc = accelerometer
-Gyro = gyroscope
-Jerk = jerk signals
-Mag = magnitude
-X = X axis
-Y = Y axis
-Z = Z axis
+| Key to understanding the variables:  
+| t = time domain signals  
+| f = Fast Fourier Transform applied to signals  
+| Body = body acceleration signals  
+| Gravity = gravity acceleration signals  
+| Acc = accelerometer  
+| Gyro = gyroscope  
+| Jerk = jerk signals  
+| Mag = magnitude  
+| X = X axis  
+| Y = Y axis  
+| Z = Z axis  
 
 
 Our data set captured the mean and standard deviation values for each of the 
