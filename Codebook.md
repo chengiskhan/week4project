@@ -76,6 +76,8 @@ Our data set captured the mean and standard deviation values for each of the 33 
 | fBodyGyroMag  
 | fBodyGyroJerkMag  
 
+The Activity column contains the following values: walk, walkupstrs, walkdownstrs, sit, stand, lay
+
 "cleanset" data set
 
 The mean of each variable from the "testtraindata" data set was calculated by subject and by activity and combined into one data set. The variables are the same as in the "testtraindata" set but each represents the mean value calculated.
